@@ -17,3 +17,14 @@ async def on_ready():
 async def nitro(interaction:discord.Interaction):
     nitro_code = 'https://discord.gift/' + ''.join(random.choices('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', k=16))
     await interaction.response.send_message(interaction.user.mention , nitro_code)
+
+
+
+
+
+
+
+
+
+
+bot.run("Your Bot Token")
